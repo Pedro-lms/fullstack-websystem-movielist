@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+:root {
+  --color-primary: #5f4ef5;
+}
+
+* {
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+html, body {
+    background-color: #ebebeb;
+}
+
+a, a:hover {
+  text-decoration: flex;
+  color: unset;
+}
+header {
+  height: 50px ;
+  background-color: var(--color-primary);
+  display: flex;
+}
+
+.listmovie-nav-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #fff;
+}
+
+.listmovie-nav-content h1 {
+  font-size: 24px;
+  margin: 0;
+  font-weight: 700;
+  color: white;
+}
+
+.listmovie-contact-container {
+  font-size: 24px;
+  display: flex;
+  align-items: center;
+  color: azure;
+}
+
+.listmovie-contact-link {
+  margin: 0 0 0 10px;
+  font-size: 24px;
+  color: azure;
+}
